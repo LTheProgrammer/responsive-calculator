@@ -89,7 +89,7 @@ const Calculator = () => {
     };
 
     return (
-        <div className="container">
+        <div className="myContainer">
             <div className="calculator shadow">
                 <Card style={{ gridArea: 'display' }}>
                     <Card.Body className="p-3">

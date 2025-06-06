@@ -1,4 +1,4 @@
-.container {
+.myContainer {
     justify-content: center;
     display: grid;
     grid-template-areas:
@@ -6,7 +6,11 @@
         'history'
     ;
     grid-template-columns: 1fr;
-    grid-template-rows: max-content
+    grid-template-rows: max-content;
+    width: 100%;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .calculator {
@@ -41,7 +45,7 @@
 }
 
 @media (min-width: 48rem) {
-    .container {
+    .myContainer {
         max-width: 800px;
         display: flex;
     }
