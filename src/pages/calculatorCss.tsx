@@ -275,7 +275,7 @@ const Calculator = () => {
                     <Card.Body>
                         <div
                             className="overflow-auto"
-                            style={{ maxHeight: '33rem' }}
+                            style={{ maxHeight: '30rem' }}
                         >
                             {history.length === 0 ? (
                                 <div className="text-center p-4">
