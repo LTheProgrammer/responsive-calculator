@@ -133,6 +133,7 @@ const Calculator = () => {
                                         onClick={() => setShowHistory(!showHistory)}
                                     >
                                         <span className="d-inline d-sm-none">
+                                            {/* @ts-ignore */}
                                             <MdHistory size={18} />
                                         </span>
                                         <span className="d-none d-sm-inline">Hist</span>
